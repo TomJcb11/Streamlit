@@ -1,0 +1,32 @@
+Étage,Local,n°_projecteur,Con_VGA,Son_VGA_jack,Con_HDMI,Son_HDMI,Prises_Manquantes,Batterie_Salto,Prise_Réseaux,Nombre_Prise_Réseau,Remarque,Numéro_Prise_Wifi,Caméra,Caméra_Status,Tableau_Interactif,Tableau_Interactif_Status
+0,LR07,EB-992F,v,v,v,v,non,v,v,1,,w26,,,,
+0,LR08,EB-992F,v,v,v,v,non,v,v,1,,w27,,,,
+0,LR09,EB-992F,f,v,v,v,non,v,v,1,le port vga est visiblement mort,w28,,,,
+0,LR10,EB-992F,f,v,v,v,oui,v,v,1,pas de cable vga/ le port est mort,w17,,,,
+0,LR11,EB-X27,v,v,v,v,non,v,v,1,,w36,v,v,,
+0,LR12,EB-992F,v,v,v,v,oui,v,v,1,pas de cable vga/ salto KO,w31,v,v,,
+0,LR13,EB-992F,v,v,v,v,oui,v,v,1,si cable pas maintenu filtre rouge vga/ pas de jack,w32,v,v,,
+0,LR14,EB-X27,v,v,v,v,oui,v,v,1,pas cable vga,w33,v,v,,
+0,LR15,EB-992F,v,v,v,v,oui,v,v,1,pas de jack/ un hdmi en trop,w34,v,v,,
+1,L115,EB-992F,v,v,v,v,non,v,v,27,,?,,,,
+1,L118,EB-992F,v,v,v,v,oui,v,v,24,pas de jack,?,,,,
+1,L120,EB-992F,v,v,v,v,non,v,v,27,,?,,,,
+1,L121,EB-992F,v,v,v,v,non,v,v,34,,?,,,,
+1,L122,EB-992F,v,v,v,v,non,v,v,1,,?,,,,
+1,L123,EB-992F,v,v,v,v,non,v,v,1,,?,,,,
+1,L124,EB-992F,v,v,v,v,non,v,v,1,,?,,,,
+1,L125,EB-992F,v,v,v,v,non,v,v,1,,?,,,,
+1,L128,EB-735FI,v,v,v,v,non,v,v,6,rajouter des scratch sur le mur pour les cables,?,,,v,v
+1,L129,EB-735FI,v,v,v,v,oui,v,v,6,rajouter des scratch + pas de cable mini jack,?,,,v,v
+1,L130,EB-735FI,v,v,v,v,oui,v,v,6,scratch + port cable VGA déformé/ port jack  KO,?,,,v,v
+1,L131,EB-735FI,v,v,v,v,oui,v,v,6,pas de VGA/ mini jack/problème de calibrage tbi/ pas de usb/ ,?,,,v,f
+1,L133,EB-735FI,v,v,v,v,non,v,v,4,ok mais réssolution pas très nette,?,,,v,v
+1,L134,EB-735FI,v,v,v,v,non,v,v,4,,?,,,v,v
+1,L135,EB-725WI,v,v,v,v,oui,f,v,2,pas de jack,?,,,v,v
+1,L136,EB-735-FI,v,v,v,v,oui,f,v,2,pas de jack,?,,,v,v
+2,L217,EB-X27,v,v,v,v,oui,v,v,2,cable VGA car cable déformé,W-01 et W-10,,,,
+2,L218,EB-992F,v,v,v,v,non,v,v,5,,W 04,v,v,,
+2,L219,EB-992F,v,v,v,v,non,v,v,1,,W-13,,,,
+2,L220,EB-992F,v,v,v,v,non,v,v,1,,W 08,,,,
+2,L221,EB-992F,v,v,v,v,non,v,v,1,le  cable HDMI se détache facilement du port,W-03,,,,
+2,L223,EB-992F,v,v,v,v,non,v,v,2,2 cable VGA dont 1 qui ne rentre pas dans la fiche,?,,,,

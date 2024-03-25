@@ -1,0 +1,47 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: example
+      POSTGRES_DB: data_test
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./csv:/postgres
+    ports:
+      - "5432:5432"
+  streamlit:
+    build:
+      context: .
+      dockerfile: dockerfile.streamlit
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ./wait-for-it.sh db:5432 -- streamlit run scripts/maindashboard.py
+    ports:
+      - "8501:8501"
+    depends_on:
+      - db
+  db_seed:
+    build:
+      context: .
+      dockerfile: dockerfile.streamlit
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ./wait-for-it.sh db:5432 -- python scripts/db_seed.py
+    depends_on:
+      - db
+  nginx:
+    build:
+      context: .
+      dockerfile: dockerfile.nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - streamlit
