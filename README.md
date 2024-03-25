@@ -2,7 +2,7 @@
 
 ## **Getting Started**
 
-1. Un-zip the envStremlit.7z file containing the python env
+1. Un-zip the envStreamlit.7z file containing the python env
 2. Be sure to place all of your tables in as many CSV files than you have table. The CSV folder/file MUST follow this type :
 
    - separated by coma ","
