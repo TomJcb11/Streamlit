@@ -2,10 +2,10 @@
 
 ## **Getting Started**
 
-1. Un-zip the envStreamlit.7z file containing the python env
-2. Be sure to place all of your tables in as many CSV files than you have table. The CSV folder/file MUST follow this type :
+1. Unzip the envStreamlit.7z file containing the python env
+2. Be sure to place all of your tables in as many CSV files as you have tables. The CSV folder/file MUST follow this type :
 
-   - separated by coma ","
+   - separated by comma ","
    - encoding = UTF8
    - 1 file = 1 table
    - file name = table name
@@ -18,7 +18,7 @@
    2024-01-08,10:45,120,Statistique et mathématiques financières,X104,127,WLW,1° International Business
    2024-01-08,10:45,120,Statistique et mathématiques financières,X104,A04,WLW,1° International Business
    ```
-3. Run the following command, in order to deleting the existing docker compose file for a fresh start
+3. Run the following command, in order to delete the existing docker compose file for a fresh start
 
    ```bash
    docker-compose down
@@ -26,11 +26,11 @@
    docker-compose up
    ```
 
-   Notice that we are here using the wait-for-it.sh script that can be found on this repo [(vishnubob/wait-for-it)](https://github.com/vishnubob/wait-for-it)
+   Notice that we are here using the wait-for-it.sh script which can be found on this repo [(vishnubob/wait-for-it)](https://github.com/vishnubob/wait-for-it)
 
 ## Customization Options
 
-Have a look at the *color_cells()* method described in the maindashboard top lines and custom the differents aspect rules your way.
+Have a look at the *color_cells()* method described in the main dashboard top lines and customize the different aspect rules your way.
 
 ## Bibliography
 
