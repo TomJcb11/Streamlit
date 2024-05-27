@@ -1,3 +1,4 @@
 {
-    "sqltools.connections": []
+    "sqltools.connections": [],
+    "DockerRun.DisableAutoGenerateConfig": true
 }
