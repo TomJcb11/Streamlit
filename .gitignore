@@ -1,6 +1,6 @@
 # Ignore data directory
 /data
-/.vscode
+
 # Ignore Streamlit environment directory
 /envStreamlit
-/vscode
+/.vscode
