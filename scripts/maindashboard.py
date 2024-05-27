@@ -46,18 +46,7 @@ def Showtable(table):
     for i, tab in enumerate(tabs):
         with tab:
             styled_data = data[data[selected_column] == st.session_state[f'selected_value_{i}']][stock].style.map(color_cells)
-            # Fonction pour colorer les cellules en fonction d'une condition
             st.dataframe(styled_data)
-
-            
-
-
-
-
-
-
-
-
 
 def ShowEachTable():
     """je veux créer un dataframe pour chaque table de la base de données et les afficher dans un onglet différent de l'application streamlit """
@@ -86,19 +75,7 @@ def ShowEachTable():
     if st.session_state.table_name is not None:
         Showtable(st.session_state.table_name)
     
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
     cur.close()
     conn.close()
 
